@@ -2,7 +2,7 @@ public class GolfScoreCalculator {
     // 各ホールのパーの値を配列で保持
     private final int[] parValues = {4, 4, 3, 4, 5, 4, 5, 3, 4, 4, 3, 4, 5, 4, 3, 4, 5, 4};
     private int totalScore = 0; // 総合スコアの初期値を設定
-    private int completedHoles = 0; // 完了したホールの数を追跡
+    private int completedHoles = 0; // 完了したホールの数を設定
 
     // 入力からスコアを計算するメソッド
     public void calculateScores(String input) {
